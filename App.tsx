@@ -1,12 +1,13 @@
+
 import React, { useState, useEffect, useRef } from 'react';
-import { TimerMode } from './types';
-import { DEFAULT_TIME_SETTINGS, MODE_CONFIG } from './constants';
-import TimerDisplay from './components/TimerDisplay';
-import ModeSelector from './components/ModeSelector';
-import ActionButton from './components/ActionButton';
-import PomodoroCounter from './components/PomodoroCounter';
-import { SettingsIcon } from './components/Icons';
-import SettingsModal from './components/SettingsModal';
+import { TimerMode } from './types.ts';
+import { DEFAULT_TIME_SETTINGS, MODE_CONFIG } from './constants.ts';
+import TimerDisplay from './components/TimerDisplay.tsx';
+import ModeSelector from './components/ModeSelector.tsx';
+import ActionButton from './components/ActionButton.tsx';
+import PomodoroCounter from './components/PomodoroCounter.tsx';
+import { SettingsIcon } from './components/Icons.tsx';
+import SettingsModal from './components/SettingsModal.tsx';
 
 const getInitialTimeSettings = (): Record<TimerMode, number> => {
     try {

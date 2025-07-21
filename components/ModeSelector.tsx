@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { TimerMode } from '../types';
-import { MODE_CONFIG } from '../constants';
+import { TimerMode } from '../types.ts';
+import { MODE_CONFIG } from '../constants.ts';
 
 interface ModeSelectorProps {
   currentMode: TimerMode;

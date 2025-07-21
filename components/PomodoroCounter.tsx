@@ -1,5 +1,5 @@
 import React from 'react';
-import { ResetIcon } from './Icons';
+import { ResetIcon } from './Icons.tsx';
 
 interface PomodoroCounterProps {
   count: number;
