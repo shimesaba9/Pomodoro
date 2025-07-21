@@ -1,4 +1,4 @@
-import { TimerMode } from './types.ts';
+import { TimerMode } from './types';
 
 export const DEFAULT_TIME_SETTINGS = {
   [TimerMode.POMODORO]: 25 * 60, // 25 minutes

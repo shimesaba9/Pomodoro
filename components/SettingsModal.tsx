@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { TimerMode } from '../types.ts';
+import { TimerMode } from '../types';
 
 interface SettingsModalProps {
   isOpen: boolean;
